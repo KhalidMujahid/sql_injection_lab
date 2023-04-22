@@ -51,7 +51,7 @@ const sendToServer = async (data) => {
       sqlOutput.innerHTML = `<h4 style="background-color:yellowgreen;color:white;padding:1rem;border-radius:5px;">${JSON.stringify(
         data.sql,
         null,
-        5
+        4
       )}</h1>`;
     })
     .catch((error) => console.log("!!", JSON.stringify(error, 5)));
