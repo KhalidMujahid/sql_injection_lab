@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Injection site playground</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <section>
+        <h1>SQL Injection</h1>
+        <form>
+            <div class="message">
+                <p>OUTPUT:</p>
+                <div class="output"></div>
+            </div>
+            <div class="form-group">
+                <label for="username">username</label>
+                <input type="text" placeholder="username" name="username" id="username">
+            </div>
+            <div class="form-group">
+                <label for="password">password</label>
+                <input type="text" placeholder="password" name="password" id="password">
+            </div>
+            <div class="form-group">
+                <button>Login</button>
+            </div>
+            <!-- <a href="/register">Don't have an account?</a> -->
+        </form>
+        <div class="message">
+            <p>SQL</p>
+            <div class="sql"></div>
+        </div>
+    </section>
+</body>
+
+</html>
